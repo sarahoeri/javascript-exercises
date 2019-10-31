@@ -154,7 +154,7 @@ describe("basics", function() {
     describe("Set a property to undefined", function() {
         it("should run without errors", function() {
             const object = {
-                someProperty: 1
+                someProperty: undefined
             };
 
             ////////////////////////////////////////////////////////////////////
