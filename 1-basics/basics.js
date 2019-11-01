@@ -239,6 +239,8 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
             // ✏️ ADD CODE HERE ✏️
+            let longArray = new Array(100);
+            console.log(longArray.length);
 
             ////////////////////////////////////////////////////////////////////
 
