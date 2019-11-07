@@ -14,7 +14,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            function myFunction () {}
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -27,7 +27,10 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            doSomething(); 
+            const doSomething = function doSomething() {  
+                   console.log("did something"); 
+            };
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
