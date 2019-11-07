@@ -278,7 +278,7 @@ describe("basics", function() {
             // ✏️ ADD CODE HERE ✏️
             const falsyString = "";
             if(falsyString){
-                console.log("falsyString is not falsy")
+                console.log("falsyString is  falsy")
             };
 
             ////////////////////////////////////////////////////////////////////
