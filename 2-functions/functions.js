@@ -27,10 +27,8 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            doSomething(); 
-            const doSomething = function doSomething() {  
-                   console.log("did something"); 
-            };
+           const myFunction = function(){}
+            
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
