@@ -209,7 +209,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function copy(array) {
+                return [...array];
+            }
             ////////////////////////////////////////////////////////////////////
 
             const array1Copy = copy(array1);
