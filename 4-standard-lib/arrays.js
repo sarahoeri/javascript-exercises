@@ -48,7 +48,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function appendItem(item){
+                return array.push(item);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(appendItem("a")).to.equal(1);
