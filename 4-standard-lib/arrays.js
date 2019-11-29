@@ -66,7 +66,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function appendMultipleItems(...args) {
+                return array.push(...args);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(appendMultipleItems("a", "b", "c")).to.equal(3);
