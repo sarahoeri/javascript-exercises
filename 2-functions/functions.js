@@ -475,7 +475,11 @@ describe("functions", function() {
             //   - the first argument being the element in the array
             //   - the second argument being the current index in the array
             // ✏️ ADD CODE HERE ✏️
-
+            function forEach(fn, array) {
+                for (let i = 0; i < array.length; i++) {
+                    fn(array[i], i);
+                }
+            }
             ////////////////////////////////////////////////////////////////////
 
             // To test your implementation, we capture all arguments passed to 'fn'
