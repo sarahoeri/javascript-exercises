@@ -120,7 +120,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function addItemsAtFirstPosition(...args) {
+                return array.splice(1, 0, ...args);
+            }
             ////////////////////////////////////////////////////////////////////
 
             addItemsAtFirstPosition("a");
