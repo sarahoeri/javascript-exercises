@@ -102,7 +102,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function prependMultipleItems(...args) {
+                return array.unshift(...args);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(prependMultipleItems("a", "b", "c")).to.equal(4);
