@@ -139,7 +139,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function overwriteItemsAtFirstPosition(...args) {
+                return array.splice(1, 1, ...args);
+            }
             ////////////////////////////////////////////////////////////////////
 
             overwriteItemsAtFirstPosition("a");
