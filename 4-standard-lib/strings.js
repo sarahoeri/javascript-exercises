@@ -81,7 +81,10 @@ describe("strings", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            const text = "   example sentence   "
+            function removeWhitespaceAround(string){
+                return text.trim(string);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(removeWhitespaceAround("   example sentence   ")).to.equal(
