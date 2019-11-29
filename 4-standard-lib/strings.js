@@ -30,7 +30,9 @@ describe("strings", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function findLastIndexOf(string){
+                return text.lastIndexOf(string);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(findLastIndexOf("e")).to.equal(33);
