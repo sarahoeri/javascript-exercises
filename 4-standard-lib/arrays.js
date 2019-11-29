@@ -252,7 +252,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function cut(start, end) {
+                return array.slice(start, end);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(cut(1)).to.eql(["b", "c", "d", "e", "f"]);
