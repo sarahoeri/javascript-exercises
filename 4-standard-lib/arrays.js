@@ -192,8 +192,8 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-            function sortAlphabetically() {
-                return array.sort();
+            function sortByLength() {
+                return array.sort((a,b ) => a.length - b.length);
             }
             ////////////////////////////////////////////////////////////////////
 
