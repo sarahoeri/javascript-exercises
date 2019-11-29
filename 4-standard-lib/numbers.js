@@ -89,7 +89,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function roundNumber(number){
+                return Math.ceil(number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             expect(roundNumber(0)).to.equal(0);
