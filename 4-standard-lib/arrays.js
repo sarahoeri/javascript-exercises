@@ -305,7 +305,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function contains(string) {
+                return array.includes(string);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(contains("a")).to.equal(true);
